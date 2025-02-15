@@ -187,7 +187,7 @@
             this.ComboBoxGumSlot_5.MinimumSize = new System.Drawing.Size(10, 10);
             this.ComboBoxGumSlot_5.Name = "ComboBoxGumSlot_5";
             this.ComboBoxGumSlot_5.Padding = new System.Windows.Forms.Padding(1);
-            this.ComboBoxGumSlot_5.Size = new System.Drawing.Size(185, 30);
+            this.ComboBoxGumSlot_5.Size = new System.Drawing.Size(216, 30);
             this.ComboBoxGumSlot_5.TabIndex = 6;
             this.ComboBoxGumSlot_5.Texts = "";
             this.ComboBoxGumSlot_5.OnSelectedIndexChanged += new System.EventHandler(this.ComboBoxGumSlot_5_OnSelectedIndexChanged);
@@ -245,7 +245,7 @@
             this.ComboBoxGumSlot_4.MinimumSize = new System.Drawing.Size(10, 10);
             this.ComboBoxGumSlot_4.Name = "ComboBoxGumSlot_4";
             this.ComboBoxGumSlot_4.Padding = new System.Windows.Forms.Padding(1);
-            this.ComboBoxGumSlot_4.Size = new System.Drawing.Size(185, 30);
+            this.ComboBoxGumSlot_4.Size = new System.Drawing.Size(216, 30);
             this.ComboBoxGumSlot_4.TabIndex = 5;
             this.ComboBoxGumSlot_4.Texts = "";
             this.ComboBoxGumSlot_4.OnSelectedIndexChanged += new System.EventHandler(this.ComboBoxGumSlot_4_OnSelectedIndexChanged);
@@ -303,7 +303,7 @@
             this.ComboBoxGumSlot_3.MinimumSize = new System.Drawing.Size(10, 10);
             this.ComboBoxGumSlot_3.Name = "ComboBoxGumSlot_3";
             this.ComboBoxGumSlot_3.Padding = new System.Windows.Forms.Padding(1);
-            this.ComboBoxGumSlot_3.Size = new System.Drawing.Size(185, 30);
+            this.ComboBoxGumSlot_3.Size = new System.Drawing.Size(216, 30);
             this.ComboBoxGumSlot_3.TabIndex = 4;
             this.ComboBoxGumSlot_3.Texts = "";
             this.ComboBoxGumSlot_3.OnSelectedIndexChanged += new System.EventHandler(this.ComboBoxGumSlot_3_OnSelectedIndexChanged);
@@ -361,7 +361,7 @@
             this.ComboBoxGumSlot_2.MinimumSize = new System.Drawing.Size(10, 10);
             this.ComboBoxGumSlot_2.Name = "ComboBoxGumSlot_2";
             this.ComboBoxGumSlot_2.Padding = new System.Windows.Forms.Padding(1);
-            this.ComboBoxGumSlot_2.Size = new System.Drawing.Size(185, 30);
+            this.ComboBoxGumSlot_2.Size = new System.Drawing.Size(216, 30);
             this.ComboBoxGumSlot_2.TabIndex = 3;
             this.ComboBoxGumSlot_2.Texts = "";
             this.ComboBoxGumSlot_2.OnSelectedIndexChanged += new System.EventHandler(this.ComboBoxGumSlot_2_OnSelectedIndexChanged);
@@ -419,7 +419,7 @@
             this.ComboBoxGumSlot_1.MinimumSize = new System.Drawing.Size(10, 10);
             this.ComboBoxGumSlot_1.Name = "ComboBoxGumSlot_1";
             this.ComboBoxGumSlot_1.Padding = new System.Windows.Forms.Padding(1);
-            this.ComboBoxGumSlot_1.Size = new System.Drawing.Size(185, 30);
+            this.ComboBoxGumSlot_1.Size = new System.Drawing.Size(216, 30);
             this.ComboBoxGumSlot_1.TabIndex = 2;
             this.ComboBoxGumSlot_1.Texts = "";
             this.ComboBoxGumSlot_1.OnSelectedIndexChanged += new System.EventHandler(this.ComboBoxGumSlot_1_OnSelectedIndexChanged);

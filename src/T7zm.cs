@@ -41,10 +41,10 @@ namespace T7zm_GumEditor
             // Mega
             Aftertaste = 0xD8,
             Burned_Out = 0xD9,
-            Crawl_Space_Missing = 0x00,
+            Crawl_Space_DLC = 0xEA,
             Dead_Of_Nuclear_Winter = 0xDB,
             Ephemeral_Enhancement = 0xDC,
-            Fatal_Contraption_Missing = 0x00,
+            Fatal_Contraption_DLC = 0xEB,
             Im_Feelin_Lucky = 0xDD,
             Immolation_Liquidation = 0xDE,
             Licensed_Contractor = 0xE1,
@@ -56,9 +56,9 @@ namespace T7zm_GumEditor
             Cache_Back = 0xDA,
             Kill_Joy = 0xDF,
             On_The_House = 0xE2,
-            Undead_Man_Walking_Missing = 0x00,
+            Undead_Man_Walking_DLC = 0xED,
             Wall_Power = 0xE8,
-            Head_Drama_Missing = 0x00,
+            Head_Drama_DLC = 0xEC,
             Killing_Time = 0xE0,
             Perkaholic = 0xE3;
 
@@ -207,7 +207,7 @@ namespace T7zm_GumEditor
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_0, Burned_Out);
                         break;
                     case 17:
-                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_0, Crawl_Space_Missing);
+                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_0, Crawl_Space_DLC);
                         break;
                     case 18:
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_0, Dead_Of_Nuclear_Winter);
@@ -216,7 +216,7 @@ namespace T7zm_GumEditor
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_0, Ephemeral_Enhancement);
                         break;
                     case 20:
-                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_0, Fatal_Contraption_Missing);
+                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_0, Fatal_Contraption_DLC);
                         break;
                     case 21:
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_0, Im_Feelin_Lucky);
@@ -252,13 +252,13 @@ namespace T7zm_GumEditor
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_0, On_The_House);
                         break;
                     case 32:
-                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_0, Undead_Man_Walking_Missing);
+                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_0, Undead_Man_Walking_DLC);
                         break;
                     case 33:
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_0, Wall_Power);
                         break;
                     case 34:
-                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_0, Head_Drama_Missing);
+                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_0, Head_Drama_DLC);
                         break;
                     case 35:
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_0, Killing_Time);
@@ -334,7 +334,7 @@ namespace T7zm_GumEditor
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_1, Burned_Out);
                         break;
                     case 17:
-                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_1, Crawl_Space_Missing);
+                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_1, Crawl_Space_DLC);
                         break;
                     case 18:
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_1, Dead_Of_Nuclear_Winter);
@@ -343,7 +343,7 @@ namespace T7zm_GumEditor
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_1, Ephemeral_Enhancement);
                         break;
                     case 20:
-                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_1, Fatal_Contraption_Missing);
+                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_1, Fatal_Contraption_DLC);
                         break;
                     case 21:
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_1, Im_Feelin_Lucky);
@@ -379,13 +379,13 @@ namespace T7zm_GumEditor
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_1, On_The_House);
                         break;
                     case 32:
-                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_1, Undead_Man_Walking_Missing);
+                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_1, Undead_Man_Walking_DLC);
                         break;
                     case 33:
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_1, Wall_Power);
                         break;
                     case 34:
-                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_1, Head_Drama_Missing);
+                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_1, Head_Drama_DLC);
                         break;
                     case 35:
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_1, Killing_Time);
@@ -461,7 +461,7 @@ namespace T7zm_GumEditor
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_2, Burned_Out);
                         break;
                     case 17:
-                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_2, Crawl_Space_Missing);
+                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_2, Crawl_Space_DLC);
                         break;
                     case 18:
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_2, Dead_Of_Nuclear_Winter);
@@ -470,7 +470,7 @@ namespace T7zm_GumEditor
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_2, Ephemeral_Enhancement);
                         break;
                     case 20:
-                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_2, Fatal_Contraption_Missing);
+                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_2, Fatal_Contraption_DLC);
                         break;
                     case 21:
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_2, Im_Feelin_Lucky);
@@ -506,13 +506,13 @@ namespace T7zm_GumEditor
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_2, On_The_House);
                         break;
                     case 32:
-                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_2, Undead_Man_Walking_Missing);
+                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_2, Undead_Man_Walking_DLC);
                         break;
                     case 33:
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_2, Wall_Power);
                         break;
                     case 34:
-                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_2, Head_Drama_Missing);
+                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_2, Head_Drama_DLC);
                         break;
                     case 35:
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_2, Killing_Time);
@@ -588,7 +588,7 @@ namespace T7zm_GumEditor
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_3, Burned_Out);
                         break;
                     case 17:
-                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_3, Crawl_Space_Missing);
+                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_3, Crawl_Space_DLC);
                         break;
                     case 18:
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_3, Dead_Of_Nuclear_Winter);
@@ -597,7 +597,7 @@ namespace T7zm_GumEditor
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_3, Ephemeral_Enhancement);
                         break;
                     case 20:
-                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_3, Fatal_Contraption_Missing);
+                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_3, Fatal_Contraption_DLC);
                         break;
                     case 21:
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_3, Im_Feelin_Lucky);
@@ -633,13 +633,13 @@ namespace T7zm_GumEditor
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_3, On_The_House);
                         break;
                     case 32:
-                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_3, Undead_Man_Walking_Missing);
+                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_3, Undead_Man_Walking_DLC);
                         break;
                     case 33:
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_3, Wall_Power);
                         break;
                     case 34:
-                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_3, Head_Drama_Missing);
+                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_3, Head_Drama_DLC);
                         break;
                     case 35:
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_3, Killing_Time);
@@ -715,7 +715,7 @@ namespace T7zm_GumEditor
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_4, Burned_Out);
                         break;
                     case 17:
-                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_4, Crawl_Space_Missing);
+                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_4, Crawl_Space_DLC);
                         break;
                     case 18:
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_4, Dead_Of_Nuclear_Winter);
@@ -724,7 +724,7 @@ namespace T7zm_GumEditor
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_4, Ephemeral_Enhancement);
                         break;
                     case 20:
-                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_4, Fatal_Contraption_Missing);
+                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_4, Fatal_Contraption_DLC);
                         break;
                     case 21:
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_4, Im_Feelin_Lucky);
@@ -760,13 +760,13 @@ namespace T7zm_GumEditor
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_4, On_The_House);
                         break;
                     case 32:
-                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_4, Undead_Man_Walking_Missing);
+                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_4, Undead_Man_Walking_DLC);
                         break;
                     case 33:
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_4, Wall_Power);
                         break;
                     case 34:
-                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_4, Head_Drama_Missing);
+                        api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_4, Head_Drama_DLC);
                         break;
                     case 35:
                         api.Extension.WriteByte(GetCurrentGobbleGumPack() + Slot_4, Killing_Time);
